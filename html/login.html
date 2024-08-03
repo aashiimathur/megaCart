@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MegaCart</title>
+    <link rel="stylesheet" href="/MegaCartProject/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login to MegaCart</h1>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <div id="usernameError" class="error"></div>
+            <input type="password" id="password" placeholder="Password" required>
+            <div id="passwordError" class="error"></div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember Me</label>
+            </div>
+            <button type="submit">Login</button>
+            <div>Don't have an account? <a href="sign-up.html">Sign Up</a></div>
+        </form>
+        </div>
+    <script src="/MegaCartProject/javascript/login.js"></script>
+</body>
+</html>

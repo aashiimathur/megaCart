@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+a:hover {
+    color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#totalCost {
+    font-weight: bold;
+}
+.quantity {
+    width: 60px;
+    text-align: center;
+}
+.remove-item {
+    color: red;
+    cursor: pointer;
+}
+.remove-item:hover {
+    text-decoration: underline;
+}
