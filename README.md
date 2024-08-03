@@ -1,4 +1,4 @@
-#megaCart
+## megaCart
 megaCart is an online shopping application built with HTML, CSS, and JavaScript. It allows users to browse categories of items, add products to a cart, and proceed with checkout.
 
 ## Features
